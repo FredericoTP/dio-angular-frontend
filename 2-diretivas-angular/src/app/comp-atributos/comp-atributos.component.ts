@@ -9,6 +9,8 @@ export class CompAtributosComponent implements OnInit {
   estilo: string = "disable"
   corFundo: string = "blue"
   corDaFonte: string = "yellow"
+  item: string = ""
+  lista: string[] = []
 
   constructor() { }
 
@@ -21,5 +23,9 @@ export class CompAtributosComponent implements OnInit {
     } else {
       this.estilo = "disable"
     }
+  }
+
+  adicionarLista() {
+    this.lista.push(this.item)
   }
 }
