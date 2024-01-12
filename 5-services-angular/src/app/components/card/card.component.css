@@ -1,0 +1,40 @@
+.card {
+  border: solid black 1px;
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  border-radius: 10px;
+}
+
+.card_body {
+  background-color: #616161;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+}
+
+.card_title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card_title > h3 {
+  color: white;
+}
+
+.card_stats {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card_stats_type {
+  color: white;
+  background-color: coral;
+  padding: 5px;
+  margin-right: 4px;
+  border-radius: 5px;
+}
