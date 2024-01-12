@@ -32,7 +32,8 @@
 }
 
 .card_stats_type {
-  color: white;
+  color: black;
+  font-weight: bold;
   background-color: coral;
   padding: 5px;
   margin-right: 4px;
